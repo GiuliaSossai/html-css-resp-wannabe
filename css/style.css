@@ -61,3 +61,40 @@ img{
 }
 
 /* PARTE RESPONSIVE */
+@media screen and (max-width: 419px) {
+  body {
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .container.grey{
+    background-color: #F2F2CD;
+  }
+
+  
+  img{
+    height: 80px;
+  }
+
+  .row {
+    width: 96%;
+    margin: 0 auto;
+    padding: 10px 0;
+  }
+
+  #lezioni .row > .left, #lezioni .row > .right{
+   width: 100%;
+   float: none;
+   margin-top: 20px;
+  }
+
+  #steps .row > .left, #steps .row > .central, #steps .row > .right{
+   float: none;
+   width: 100%;
+  }
+
+  
+
+}
