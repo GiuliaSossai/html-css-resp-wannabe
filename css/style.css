@@ -62,7 +62,7 @@ img{
 
 /* PARTE RESPONSIVE */
 /* bonus */
-@media screen and (max-width: 779px) {
+@media screen and (max-width: 780px) {
   * {
     margin: 0;
     padding: 0;
@@ -96,7 +96,7 @@ img{
 }
 
 
-@media screen and (max-width: 419px) {
+@media screen and (max-width: 420px) {
   body {
     font-size: 15px;
   }
